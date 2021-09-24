@@ -1,0 +1,22 @@
+{
+  "name": "playground",
+  "version": "0.0.0",
+  "description": "This is the basic of the web enveloped, modern web development ",
+  "main": "index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "rawk",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  },
+  "alias": {
+    "@codebenderhq/canvas": "../canvas"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
