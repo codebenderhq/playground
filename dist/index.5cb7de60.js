@@ -943,7 +943,13 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _jsxRuntime = require("react/jsx-runtime");
 var _canvas = require("@codebenderhq/canvas");
 var _canvasDefault = parcelHelpers.interopDefault(_canvas);
-_canvasDefault.default.app(()=>/*#__PURE__*/ _jsxRuntime.jsx(_jsxRuntime.Fragment, {
+_canvasDefault.default.app(()=>/*#__PURE__*/ _jsxRuntime.jsx("div", {
+        className: "w-full h-screen flex justify-center",
+        __source: {
+            fileName: "src/index.js",
+            lineNumber: 3
+        },
+        __self: undefined,
         children: "hello world"
     })
 );
@@ -997,6 +1003,7 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxRuntime = require("react/jsx-runtime");
 var _reactDom = require("react-dom");
 var _reactDomDefault = parcelHelpers.interopDefault(_reactDom);
+var _indexCss = require("./src/style/index.css");
 const app = (El)=>{
     _reactDomDefault.default.render(/*#__PURE__*/ _jsxRuntime.jsx(El, {
         __source: {
@@ -1023,7 +1030,7 @@ exports.default = {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","react-dom":"2oidv","react/jsx-runtime":"6OnU4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J"}],"2oidv":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","react-dom":"2oidv","react/jsx-runtime":"6OnU4","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J","./src/style/index.css":"h2PpU"}],"2oidv":[function(require,module,exports) {
 'use strict';
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === 'undefined' || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== 'function') return;
@@ -22901,7 +22908,7 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"fNmB3"}],"8xIwr":[function(require,module,exports) {
+},{"react-refresh/runtime":"fNmB3"}],"h2PpU":[function() {},{}],"8xIwr":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react-jsx-runtime.development.js');
 

@@ -11,7 +11,10 @@
   "author": "rawk",
   "license": "MIT",
   "devDependencies": {
-    "parcel": "^2.0.0-rc.0"
+    "autoprefixer": "^10.3.6",
+    "parcel": "^2.0.0-rc.0",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.16"
   },
   "alias": {
     "@codebenderhq/canvas": "../canvas"
