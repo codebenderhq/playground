@@ -5,7 +5,7 @@
   "main": "index.js",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
+    "start": "rm -r ./dist && rm -r .parcel-cache  && parcel",
     "build": "parcel build"
   },
   "author": "rawk",

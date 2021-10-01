@@ -939,17 +939,12 @@ var prevRefreshSig = window.$RefreshSig$;
 $parcel$ReactRefreshHelpers$bf09.prelude(module);
 
 try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _jsxRuntime = require("react/jsx-runtime");
 var _ = require("@codebenderhq/canvas/");
-var _Default = parcelHelpers.interopDefault(_);
-var _app = require("@codebenderhq/canvas/src/components/app");
-var _appDefault = parcelHelpers.interopDefault(_app);
-var _1 = require("@codebenderhq/canvas/src/");
-var _Default1 = parcelHelpers.interopDefault(_1);
-var _indexCss = require("@codebenderhq/canvas/src/style/index.css");
-console.log(_Default.default);
-_Default.default.app(()=>/*#__PURE__*/ _jsxRuntime.jsxs(_appDefault.default, {
+// import MainApp from '@codebenderhq/canvas/src/theme/sauveur/components/app' 
+var _indexCss = require("@codebenderhq/canvas/src/theme/sauveur/style/index.css");
+console.log(_.Sauveur);
+_.Sauveur.app(()=>/*#__PURE__*/ _jsxRuntime.jsxs(_.Sauveur.MainApp, {
         __source: {
             fileName: "src/index.js",
             lineNumber: 10
@@ -991,7 +986,7 @@ _Default.default.app(()=>/*#__PURE__*/ _jsxRuntime.jsxs(_appDefault.default, {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","@codebenderhq/canvas/":"bXLr0","@codebenderhq/canvas/src/style/index.css":"h2PpU","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J","@codebenderhq/canvas/src/components/app":"hBLEg","@codebenderhq/canvas/src/":"bXLr0"}],"8xIwr":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","@codebenderhq/canvas/":"bXLr0","@codebenderhq/canvas/src/theme/sauveur/style/index.css":"fpuRK","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J"}],"8xIwr":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react-jsx-runtime.development.js');
 
@@ -3462,6 +3457,14 @@ module.exports = shouldUseNative() ? Object.assign : function(target, source) {
 },{}],"bXLr0":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Sauveur", ()=>_sauveurDefault.default
+);
+var _sauveur = require("./theme/sauveur");
+var _sauveurDefault = parcelHelpers.interopDefault(_sauveur);
+
+},{"./theme/sauveur":"04CzM","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"04CzM":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
 var _splash = require("./components/splash");
 var _splashDefault = parcelHelpers.interopDefault(_splash);
 var _app = require("./components/app");
@@ -3474,11 +3477,11 @@ exports.default = {
     app: _appDefault1.default
 };
 
-},{"./components/splash":"kbYT1","./components/app":"hBLEg","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","./components/_app":"k4vDB"}],"kbYT1":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$04af = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./components/splash":"6YlVk","./components/app":"8yDB1","./components/_app":"8q7h6","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"6YlVk":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$155a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$04af.prelude(module);
+$parcel$ReactRefreshHelpers$155a.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -3488,7 +3491,7 @@ const splash = ({ theme ="black"  })=>{
     return(/*#__PURE__*/ _jsxRuntime.jsx("div", {
         className: `w-screen h-screen bg-${theme}`,
         __source: {
-            fileName: "/Users/codebender/Documents/lab/canvas/src/components/splash/index.js",
+            fileName: "/Users/codebender/Documents/lab/canvas/src/theme/sauveur/components/splash/index.js",
             lineNumber: 5
         },
         __self: undefined
@@ -3496,7 +3499,7 @@ const splash = ({ theme ="black"  })=>{
 };
 exports.default = splash;
 
-  $parcel$ReactRefreshHelpers$04af.postlude(module);
+  $parcel$ReactRefreshHelpers$155a.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
@@ -6121,11 +6124,11 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"fNmB3"}],"hBLEg":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$4e64 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react-refresh/runtime":"fNmB3"}],"8yDB1":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$2a94 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$4e64.prelude(module);
+$parcel$ReactRefreshHelpers$2a94.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -6134,60 +6137,82 @@ var _jsxRuntime = require("react/jsx-runtime");
 var _app = require("./_app");
 var _appDefault = parcelHelpers.interopDefault(_app);
 var _reactRouterDom = require("react-router-dom");
-const App = ({ children  })=>{
-    return(/*#__PURE__*/ _jsxRuntime.jsx(_appDefault.default, {
+const MainApp = ({ children  })=>{
+    return(/*#__PURE__*/ _jsxRuntime.jsxs(_reactRouterDom.BrowserRouter, {
         __source: {
-            fileName: "/Users/codebender/Documents/lab/canvas/src/components/app/index.js",
-            lineNumber: 6
+            fileName: "/Users/codebender/Documents/lab/canvas/src/theme/sauveur/components/app/index.js",
+            lineNumber: 7
         },
         __self: undefined,
-        children: /*#__PURE__*/ _jsxRuntime.jsxs(_reactRouterDom.BrowserRouter, {
-            __source: {
-                fileName: "/Users/codebender/Documents/lab/canvas/src/components/app/index.js",
-                lineNumber: 7
-            },
-            __self: undefined,
-            children: [
-                children.map((i, k)=>{
-                    if (i.props) console.log(i.props.name);
-                }),
-                /*#__PURE__*/ _jsxRuntime.jsx(_reactRouterDom.Switch, {
+        children: [
+            /*#__PURE__*/ _jsxRuntime.jsx("nav", {
+                __source: {
+                    fileName: "/Users/codebender/Documents/lab/canvas/src/theme/sauveur/components/app/index.js",
+                    lineNumber: 9
+                },
+                __self: undefined,
+                children: /*#__PURE__*/ _jsxRuntime.jsx("ul", {
                     __source: {
-                        fileName: "/Users/codebender/Documents/lab/canvas/src/components/app/index.js",
-                        lineNumber: 15
+                        fileName: "/Users/codebender/Documents/lab/canvas/src/theme/sauveur/components/app/index.js",
+                        lineNumber: 10
                     },
                     __self: undefined,
                     children: children.map((i, k)=>{
-                        if (i.props) return(/*#__PURE__*/ _jsxRuntime.jsx(_reactRouterDom.Route, {
-                            path: `/${i.props.name || k}`,
+                        if (i.props) return(/*#__PURE__*/ _jsxRuntime.jsx("li", {
                             __source: {
-                                fileName: "/Users/codebender/Documents/lab/canvas/src/components/app/index.js",
-                                lineNumber: 19
+                                fileName: "/Users/codebender/Documents/lab/canvas/src/theme/sauveur/components/app/index.js",
+                                lineNumber: 14
                             },
                             __self: undefined,
-                            children: children[k]
-                        }, i.props.name || k));
+                            children: /*#__PURE__*/ _jsxRuntime.jsx(_reactRouterDom.Link, {
+                                to: i.props.name,
+                                __source: {
+                                    fileName: "/Users/codebender/Documents/lab/canvas/src/theme/sauveur/components/app/index.js",
+                                    lineNumber: 14
+                                },
+                                __self: undefined,
+                                children: i.props.name
+                            })
+                        }, i.props.name));
                     })
                 })
-            ]
-        })
+            }),
+            /*#__PURE__*/ _jsxRuntime.jsx(_reactRouterDom.Switch, {
+                __source: {
+                    fileName: "/Users/codebender/Documents/lab/canvas/src/theme/sauveur/components/app/index.js",
+                    lineNumber: 23
+                },
+                __self: undefined,
+                children: children.map((i, k)=>{
+                    if (i.props) return(/*#__PURE__*/ _jsxRuntime.jsx(_reactRouterDom.Route, {
+                        path: `/${i.props.name}`,
+                        __source: {
+                            fileName: "/Users/codebender/Documents/lab/canvas/src/theme/sauveur/components/app/index.js",
+                            lineNumber: 28
+                        },
+                        __self: undefined,
+                        children: children[k]
+                    }, i.props.name));
+                })
+            })
+        ]
     }));
 };
-_c = App;
-exports.default = App;
+_c = MainApp;
+exports.default = MainApp;
 var _c;
-$RefreshReg$(_c, "App");
+$RefreshReg$(_c, "MainApp");
 
-  $parcel$ReactRefreshHelpers$4e64.postlude(module);
+  $parcel$ReactRefreshHelpers$2a94.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"6OnU4","./_app":"ktdst","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J","react-router-dom":"32pbG"}],"ktdst":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$0494 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-runtime":"6OnU4","./_app":"4iOzU","react-router-dom":"32pbG","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J"}],"4iOzU":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$5135 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$0494.prelude(module);
+$parcel$ReactRefreshHelpers$5135.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -6203,7 +6228,7 @@ exports.default = AppLayout;
 var _c;
 $RefreshReg$(_c, "AppLayout");
 
-  $parcel$ReactRefreshHelpers$0494.postlude(module);
+  $parcel$ReactRefreshHelpers$5135.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
@@ -9237,11 +9262,11 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
 }
 module.exports = hoistNonReactStatics;
 
-},{"react-is":"57jC6"}],"k4vDB":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$b328 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react-is":"57jC6"}],"8q7h6":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$cf53 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$b328.prelude(module);
+$parcel$ReactRefreshHelpers$cf53.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -9252,7 +9277,7 @@ var _reactDomDefault = parcelHelpers.interopDefault(_reactDom);
 const app = (El)=>{
     _reactDomDefault.default.render(/*#__PURE__*/ _jsxRuntime.jsx(El, {
         __source: {
-            fileName: "/Users/codebender/Documents/lab/canvas/src/components/_app/index.js",
+            fileName: "/Users/codebender/Documents/lab/canvas/src/theme/sauveur/components/_app/index.js",
             lineNumber: 4
         },
         __self: undefined
@@ -9260,7 +9285,7 @@ const app = (El)=>{
 };
 exports.default = app;
 
-  $parcel$ReactRefreshHelpers$b328.postlude(module);
+  $parcel$ReactRefreshHelpers$cf53.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
@@ -28555,6 +28580,6 @@ module.exports = require('./cjs/scheduler-tracing.development.js');
     exports.unstable_wrap = unstable_wrap;
 })();
 
-},{}],"h2PpU":[function() {},{}]},["2rAXy","8Ye98","6cF5V"], "6cF5V", "parcelRequire7ebf")
+},{}],"fpuRK":[function() {},{}]},["2rAXy","8Ye98","6cF5V"], "6cF5V", "parcelRequire7ebf")
 
 //# sourceMappingURL=index.5cb7de60.js.map
