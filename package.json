@@ -2,7 +2,7 @@
   "name": "playground",
   "version": "0.0.0",
   "description": "This is the basic of the web enveloped, modern web development ",
-  "main": "index.js",
+
   "source": "src/index.html",
   "scripts": {
     "start": "rm -r ./dist && rm -r .parcel-cache  && parcel",
@@ -11,6 +11,7 @@
   "author": "rawk",
   "license": "MIT",
   "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
     "autoprefixer": "^10.3.6",
     "parcel": "^2.0.0-rc.0",
     "postcss": "^8.3.8",
