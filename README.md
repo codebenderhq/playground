@@ -6,5 +6,5 @@ As well as an example playground on how to use the [canvas](https://github.com/z
 
 ### Note 
 
-Product Sans font is used in this example and is not licenced to be used 
+Product Sans font is used in this example and [is not licenced](https://fonts.google.com/license/productsans) to be used 
 so any use of the font here for commercial purpose may cause or most probably will cause you problems
