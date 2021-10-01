@@ -5,7 +5,7 @@ import "@codebenderhq/canvas/src/theme/sauveur/style/index.css";
 Sauveur.app(() => (
   <Chappies.Layout>
     <Chappies.LayoutCol>
-        <div className="text-8xl p-8 text-center font-chappies-bold ">
+        <div className="text-5xl lg:text-8xl p-4 lg:p-8 text-center font-chappies-bold ">
             <span className="text-blue-500">C</span>
             <span className="text-red-500">h</span>
             <span className="text-yellow-300">a</span>
