@@ -1,28 +1,28 @@
-import { Sauveur, Chappies } from "@codebenderhq/canvas/";
+import { Sauveur } from "@codebenderhq/canvas/";
 // import MainApp from '@codebenderhq/canvas/src/theme/sauveur/components/app'
 import "@codebenderhq/canvas/src/theme/sauveur/style/index.css";
 
 Sauveur.app(() => (
-  <Chappies.Layout>
-    <Chappies.LayoutCol>
-        <div className="w-full text-5xl lg:text-8xl p-4 lg:p-8 text-center font-chappies-bold ">
-            <span className="text-blue-500">C</span>
-            <span className="text-red-500">h</span>
-            <span className="text-yellow-300">a</span>
-            <span className="text-blue-500">p</span>
-            <span className="text-green-500">p</span> 
-            <span className="text-red-500">i</span>
-            <span className="text-yellow-300">e</span>
-            <span className="text-green-500">s</span>
+  <Sauveur.Structure>
+    <div className="w-full h-auto">hello worlr</div>
+    <div className="flex-col lg:flex flex-grow">
+
+{/* w-1/2 */}
+      <div className={`w-full w-full h-full bg-black flex justify-center items-center`}>
+        <div className="max-w-sm lg:max-w-2xl lg:w-full flex-wrap justify-center">
+        <div className="text-7xl text-white text-center font-bold p-2"><h1>Kuro</h1></div>
+        <div className="flex h-14 w-full justify-center">
+        <div className={`w-80 lg:w-3/4 h-12 lg:h-14 rounded-full p-2 bg-gray-300 flex z-20 ` }>
+          <input className="w-full input-style"></input>
+          </div>
         </div>
-      <Chappies.Search></Chappies.Search>
- 
-    </Chappies.LayoutCol>
-    <div className="w-full h-full absolute flex items-end justify-center z-0 object-bottom p-2 font-chappies-regular select-none">
-        A design by <a href="https://twitter.com/DonovanGoliath" className="mx-1">@DonovanGoliath</a>
+        </div>
+      
+      </div>
+      <div className="w-full lg:w-1/2 h-full hidden"></div>
     </div>
- 
-  </Chappies.Layout>
+    <div className="w-full h-auto">hello world</div>
+  </Sauveur.Structure>
 ));
 
 // (() => {
