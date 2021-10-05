@@ -6,7 +6,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "rm -r ./dist && rm -r .parcel-cache  && parcel",
-    "build": "parcel build"
+    "build": "parcel build --dist-dir docs"
   },
   "author": "rawk",
   "license": "MIT",
