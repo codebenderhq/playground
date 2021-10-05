@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "This is the basic of the web enveloped, modern web development ",
 
-  "source": "src/index.html",
+  "source": "index.html",
   "scripts": {
     "start": "rm -r ./dist && rm -r .parcel-cache  && parcel",
     "build": "parcel build --dist-dir docs"
